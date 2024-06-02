@@ -1,4 +1,4 @@
-package com.example.admin.augscan;
+package com.example.admin.InventoryIQ;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -11,7 +11,7 @@ import com.google.zxing.Result;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
-public class ScanCodeActivitysearch extends AppCompatActivity implements ZXingScannerView.ResultHandler {
+public class ScanCodeActivitydel extends AppCompatActivity implements ZXingScannerView.ResultHandler {
 
     int MY_PERMISSIONS_REQUEST_CAMERA=0;
 
@@ -26,7 +26,7 @@ public class ScanCodeActivitysearch extends AppCompatActivity implements ZXingSc
     @Override
     public void handleResult(Result result) {
 
-        scanItemsActivity.resultsearcheview.setText(result.getText());
+        deleteItemsActivity.resultdeleteview.setText(result.getText());
 
         onBackPressed();
     }

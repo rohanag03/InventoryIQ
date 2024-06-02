@@ -1,4 +1,4 @@
-package com.example.admin.augscan;
+package com.example.admin.InventoryIQ;
 
 public class Items {
     private String itemname;

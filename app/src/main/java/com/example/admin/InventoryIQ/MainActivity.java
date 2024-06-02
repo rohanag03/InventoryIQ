@@ -1,4 +1,4 @@
-package com.example.admin.augscan;
+package com.example.admin.InventoryIQ;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

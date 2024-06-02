@@ -1,4 +1,4 @@
-package com.example.admin.augscan;
+package com.example.admin.InventoryIQ;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
