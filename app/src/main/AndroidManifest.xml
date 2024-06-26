@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.admin.InventoryIQ.ScanCodeActivitysearch"></activity>
+        <activity android:name="com.example.admin.InventoryIQ.ScanCodeActivitysearch" />
         <activity android:name="com.example.admin.InventoryIQ.ScanCodeActivity" />
         <activity android:name="com.example.admin.InventoryIQ.ScanCodeActivitydel" />
         <activity android:name="com.example.admin.InventoryIQ.viewInventoryActivity" />
@@ -27,6 +27,7 @@
         <activity android:name="com.example.admin.InventoryIQ.MainActivity" />
         <activity
             android:name="com.example.admin.InventoryIQ.SplashsActivity"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
